@@ -10,5 +10,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #C65B7C;
+  background: url(assets/cool-background.png);
+  background-size: cover;
 }
