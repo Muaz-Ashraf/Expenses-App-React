@@ -1,8 +1,12 @@
 .expenses {
   padding: 1rem;
-  background-color: rgb(31, 31, 31);
+  background: rgb(46, 8, 65);
+  background: radial-gradient(
+    circle,
+    rgba(46, 8, 65, 1) 0%,
+    rgba(111, 18, 70, 1) 100%
+  );
   margin: 2rem auto;
   width: 50rem;
   max-width: 95%;
-  
 }
