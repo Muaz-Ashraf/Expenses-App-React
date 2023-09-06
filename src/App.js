@@ -4,7 +4,7 @@ import Expenses from "./Components/Expenses/Expenses";
 import NewExpense from "./Components/NewExpense/NewExpense";
 
 function App() {
-  const [expenses, setExpenses] = useState(null);
+  const [expenses, setExpenses] = useState([]);
   const addExpenseHandler = (expense) => {
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
